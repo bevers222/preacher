@@ -13,7 +13,7 @@ preacher is a command line tool written in Go. Its job is to communicate with th
 #### The Go Way
 If you have your local Go environment set up, just run this command to add preacher to your GOBIN
 
-`go get github.com/bevers222/preacher`
+`go get github.com/bevers222/preacher/cmd/preacher`
 
 #### The Manual Way
 Download the compiled binary from the releases page and place it where it will be on your PATH.
