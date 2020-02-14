@@ -6,6 +6,8 @@
 ### Purpose
 preacher is a command line tool written in Go. Its job is to communicate with the Github API, pull down a specified file from every repository in an organization. Once they are delivered, you can mass evaluate them and apply corrections where necessary.
 
+**Note:** preacher is only built to work with Github. Support may come in the next major version for other SCMS, but none in the works as of yet!
+
 ### Installation
 
 #### The Go Way
@@ -30,3 +32,16 @@ The current flags and their purpose are listed below:
 - `help, h`: help shows the help command.
 - `token, t (default: read from config file)`: token will tell preacher what Github API token to use when making calls. This is setup during the first run of preacher when you configure it. This flag should only be used to override the value in the config file.
 - `org, o (default: read from config file)`: org will tell preacher what Github Organization to poll for repositories. This is setup during the first run of preacher when you configure it. This flag should only be used to override the value in the config file.
+
+
+### Future Plans
+v1 was released with just the fetch command. Once v1 is deemed stabe and I have the time, I'll start work on v2!
+
+v2 will include the update command. This will allow you to change however many files you want and it will open pull requests to each repository with a change.
+
+
+### Inspiration
+This project was inspired by [octopus](https://github.com/uptake/octopus) and by the fact that I just want to build cool Go stuff.
+
+### Help!
+I'm happy to consider and PR's, changes, tips, etc. that you have! Feel free to reach out!
