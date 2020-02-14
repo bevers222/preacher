@@ -1,6 +1,7 @@
-# preacher
+# ![preacher](doc/logo.png)
 
-## spread your message
+[![GitHub stars](https://img.shields.io/github/stars/bevers222/preacher.svg?style=social&label=Star)](https://github.com/bevers222/preacher)
+> spread your message
 
 ### Purpose
 preacher is a command line tool written in Go. Its job is to communicate with the Github API, pull down a specified file from every repository in an organization. Once they are delivered, you can mass evaluate them and apply corrections where necessary.
@@ -8,10 +9,12 @@ preacher is a command line tool written in Go. Its job is to communicate with th
 ### Installation
 
 #### The Go Way
-If you have go installed....
+If you have your local Go environment set up, just run this command to add preacher to your GOBIN
+
+`go get github.com/bevers222/preacher`
 
 #### The Manual Way
-grab the release ...
+Download the compiled binary from the releases page and place it where it will be on your PATH.
 
 ### Commands
 The current commands and their purpose are listed below:
